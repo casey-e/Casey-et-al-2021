@@ -1,0 +1,46 @@
+MouseId,Treatment,Genotype,Number_of_cFOS
+Mouse1,Quinpirole,Drd2KO,0
+Mouse1,Quinpirole,Drd2KO,8
+Mouse2,Quinpirole,Wild type,32
+Mouse2,Quinpirole,Wild type,27
+Mouse2,Quinpirole,Wild type,40
+Mouse3,Quinpirole,Drd2KO,2
+Mouse3,Quinpirole,Drd2KO,0
+Mouse3,Quinpirole,Drd2KO,2
+Mouse4,Quinpirole,Wild type,67
+Mouse4,Quinpirole,Wild type,25
+Mouse4,Quinpirole,Wild type,40
+Mouse4,Quinpirole,Wild type,28
+Mouse5,Vehicle,Wild type,3
+Mouse5,Vehicle,Wild type,0
+Mouse5,Vehicle,Wild type,0
+Mouse6,Vehicle,Drd2KO,19
+Mouse6,Vehicle,Drd2KO,21
+Mouse6,Vehicle,Drd2KO,22
+Mouse6,Vehicle,Drd2KO,10
+Mouse7,Quinpirole,Wild type,24
+Mouse8,Quinpirole,Drd2KO,1
+Mouse8,Quinpirole,Drd2KO,1
+Mouse8,Quinpirole,Drd2KO,0
+Mouse9,Vehicle,Wild type,0
+Mouse9,Vehicle,Wild type,0
+Mouse9,Vehicle,Wild type,0
+Mouse10,Vehicle,Drd2KO,0
+Mouse10,Vehicle,Drd2KO,0
+Mouse10,Vehicle,Drd2KO,0
+Mouse10,Vehicle,Drd2KO,0
+Mouse11,Quinpirole,Wild type,7
+Mouse11,Quinpirole,Wild type,28
+Mouse11,Quinpirole,Wild type,18
+Mouse12,Quinpirole,Wild type,22
+Mouse12,Quinpirole,Wild type,32
+Mouse13,Vehicle,Wild type,1
+Mouse13,Vehicle,Wild type,1
+Mouse14,Vehicle,Wild type,0
+Mouse14,Vehicle,Wild type,0
+Mouse14,Vehicle,Wild type,2
+Mouse15,Vehicle,Wild type,3
+Mouse15,Vehicle,Wild type,4
+Mouse15,Vehicle,Wild type,4
+Mouse16,Vehicle,Drd2KO,3
+Mouse16,Vehicle,Drd2KO,1
