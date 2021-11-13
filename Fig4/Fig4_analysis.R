@@ -7,7 +7,7 @@ View(df)
 
 
 
-#### Perform individual univariate tests and verify integrity of the data ####
+#### Perform individual univariate tests and verify asumptions ####
 
 ## OF: Time in center ##
 library(nlme)
