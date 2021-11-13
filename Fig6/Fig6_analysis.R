@@ -6,12 +6,10 @@ df$Group<-factor(df$Group,levels=c("FUG-eGFP","GAD-Cre"))
 View(df)
 
 
+####  Perform individual univariate tests and verify asumptions  ####
 
-#Evaluate avoidance behavior
 
-#Perform individual univariate tests and verify integrity of the data
-
-#OF: Time in center
+##  OF: Time in center
 library(nlme)
 OF_Center<-gls(OF_time_in_center_seconds~Group, data=df)
 
@@ -36,7 +34,7 @@ summary(OF_Center)
 
 
 
-#DLBT: time in light
+##  DLBT: time in light
 library(nlme)
 DLBT_TimeInLight<-gls(DLBT_time_in_light_seconds~Group, data=df)
 
@@ -82,7 +80,7 @@ leveneTest(DLBT_latency_seconds~Group, data=df)
 #Evaluate significance
 summary(DLBT_latency)
 
-#DLBT: number_of_entries
+##  DLBT: number_of_entries
 library(lme4)
 DLBT_entries<-glm(DLBT_number_of_entries ~ Group, df, family=poisson)
 
@@ -115,7 +113,7 @@ summary(DLBT_entries_QuasiPoisson)
 
 
 
-#EPM: percentage of time on open arms
+##  EPM: percentage of time on open arms
 library(nlme)
 EPM_TimeOpen<-gls(EPM_percentage_time_on_open~Group, data=df)
 
@@ -139,7 +137,7 @@ leveneTest(EPM_percentage_time_on_open~Group, data=df)
 summary(EPM_TimeOpen)
 
 
-#EPM: proportion_of_entries_to_open_arms
+##  EPM: proportion_of_entries_to_open_arms
 library(lme4)
 EPM_entries_OneWay<-glm(EPM_proportion_entries_to_open ~ Group, df, family=binomial, weights = EPM_total_entries)
 
