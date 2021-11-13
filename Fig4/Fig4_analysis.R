@@ -269,7 +269,7 @@ D2_Ctrl<-mahalanobis(Ctrl,centroid_Ctrl,s_Ctrl)
 (MV_out1<-which(D2_Ctrl>qchisq(.95, df=5)))
 
 #For CeADrd2KO group
-s_CeADrd2KO<-cov(CeADrd2KO)  #matriz de covarianzas
+s_CeADrd2KO<-cov(CeADrd2KO)   #co-variances matrix
 D2_CeADrd2KO<-mahalanobis(CeADrd2KO,centroid_CeADrd2KO,s_CeADrd2KO)
 (MV_out2<-which(D2_CeADrd2KO>qchisq(.95, df=5)))
 
