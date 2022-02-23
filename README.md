@@ -1,1 +1,1 @@
-Dataframes and statistical analyses (R codes) of our paper "Dopamine D2 receptors in the central nucleus of the amygdala regulate risk avoidance" (Casey et al., 2021).
+Dataframes and statistical analyses (R codes) of our paper "Partial Ablation of Postsynaptic Dopamine D2 Receptors in the Central Nucleus of the Amygdala Increases Risk Avoidance in Exploratory Tasks" (Casey et al., 2022), https://doi.org/10.1523/ENEURO.0528-21.2022.
